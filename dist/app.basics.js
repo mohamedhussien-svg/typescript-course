@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Role;
 (function (Role) {
     Role[Role["ADMIN"] = 0] = "ADMIN";
@@ -52,4 +54,3 @@ const addMulti = (...numbers) => {
 console.log('Add Multi Numbers :-', addMulti(1, 2, 3, 4, 5));
 const [hobby1, hobby2, ...remain] = hobbies;
 const { name: username, age } = person;
-export {};
